@@ -13,6 +13,8 @@ public class Lamp : MonoBehaviour
 
     public bool acik=false;
 
+    public Canvas secondCanvas;
+
     void Start()
     {
         redLight.enabled= false;
@@ -28,6 +30,11 @@ public class Lamp : MonoBehaviour
             SetColor(currentColorIndex);
             Debug.Log(currentColorIndex);
          }
+
+        if (currentColorIndex == 2)
+        {
+            secondCanvas.gameObject.SetActive(true); // SecondCanvas'ý pasifleþtir
+        }
     }
 
     void SetColor(int colorIndex)
