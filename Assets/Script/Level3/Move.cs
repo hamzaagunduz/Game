@@ -17,4 +17,5 @@ public class Move : MonoBehaviour
         position.z = 0;
         transform.position = position;
     }
+
 }
