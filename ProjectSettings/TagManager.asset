@@ -8,6 +8,7 @@ TagManager:
   - False
   - Cevap
   - Trambolin
+  - Mix
   layers:
   - Default
   - TransparentFX
