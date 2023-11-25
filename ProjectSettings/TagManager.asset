@@ -9,6 +9,8 @@ TagManager:
   - Cevap
   - Trambolin
   - Mix
+  - Dal
+  - Dal2
   layers:
   - Default
   - TransparentFX
