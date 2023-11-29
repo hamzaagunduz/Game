@@ -11,6 +11,8 @@ TagManager:
   - Mix
   - Dal
   - Dal2
+  - Kepce
+  - Et
   layers:
   - Default
   - TransparentFX
