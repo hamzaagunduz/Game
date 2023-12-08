@@ -22,6 +22,8 @@ TagManager:
   - Pasta
   - Tabak
   - Fork
+  - Match
+  - Rocket
   layers:
   - Default
   - TransparentFX
