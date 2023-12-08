@@ -5,10 +5,7 @@ using UnityEngine;
 public class OdunAtes : MonoBehaviour
 {
     public bool fire=false;
-    void Start()
-    {
-        
-    }
+   
 
 
     private void OnTriggerEnter2D(Collider2D collision)
