@@ -24,6 +24,8 @@ TagManager:
   - Fork
   - Match
   - Rocket
+  - Key
+  - Emp
   layers:
   - Default
   - TransparentFX
