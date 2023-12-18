@@ -19,6 +19,7 @@ public class knife : MonoBehaviour
             
 
                 resim1.enabled = false; // Birinci resimi kapat
+                resim1.GetComponent<Collider2D>().enabled = false;
                 resim2.gameObject.SetActive(true);
 
         }

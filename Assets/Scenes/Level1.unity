@@ -629,6 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63612be43ac68f840930242e9309e620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dev: {fileID: 772278243}
 --- !u!212 &258131862
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1644,6 +1645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstCanvas: {fileID: 772278246}
   secondCanvas: {fileID: 924314255}
+  puzzle: 0
 --- !u!114 &772278244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1876,6 +1878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63612be43ac68f840930242e9309e620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dev: {fileID: 772278243}
 --- !u!212 &883586803
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2524,6 +2527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63612be43ac68f840930242e9309e620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dev: {fileID: 772278243}
 --- !u!212 &1073034056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3322,6 +3326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63612be43ac68f840930242e9309e620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dev: {fileID: 772278243}
 --- !u!212 &2001909180
 SpriteRenderer:
   m_ObjectHideFlags: 0

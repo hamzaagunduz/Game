@@ -9,6 +9,8 @@ public class Level1Move : MonoBehaviour
     GameObject[] golgeler;
     Vector2 basKonum;
 
+    public Level1Devam dev;
+
     void Start()
     {
         cam=GameObject.Find("Camera").GetComponent<Camera>();
@@ -37,6 +39,12 @@ public class Level1Move : MonoBehaviour
                     {
                         transform.position = gol.transform.position;
                         Destroy(this);
+                        dev.puzzle++;
+                        if (dev.puzzle == 4)
+                        {
+                            dev.dene();
+
+                        }
                     }
                     else
                     {
